@@ -1,0 +1,29 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "Notes App Back End by Aldy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "notes",
+    "app",
+    "back-end",
+    "server",
+    "bootcamp",
+    "training"
+  ],
+  "author": "Aldy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  }
+}
